@@ -1,5 +1,6 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
+// the browser is throwing an error here because we already declared CuboidMaker in prototypes.js
 class CuboidMaker {
   constructor(cuboidAttrs) {
     this.length = cuboidAttrs.length;
