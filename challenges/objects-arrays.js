@@ -252,7 +252,7 @@ const populationTotal = zooAnimals.reduce(
   (acc, val) => acc + val.population,
   0
 );
-console.log(populationTotal);
+console.log("Request 4: .reduce(): ", populationTotal);
 
 /* 
 
